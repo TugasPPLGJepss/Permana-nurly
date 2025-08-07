@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Permanaan profile</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <header>
   <nav>
-    <h1>Permana Nurly</h1>
+      <h1>Permana Nurly</h1>
     <ul>
       <li><a href="">Tentang</a></li>
       <li><a href="">Keahlian</a></li>
@@ -22,7 +23,12 @@
 <section class="hero">
   <img src="profile/1665077350540.jpg" alt="" />
   <div class="intro">
+    <div data-aos="fade-up"
+    data-aos-offset="150"
+    data-aos-delay="200"
+    data-aos-duration="1000">
     <h2>Halo, saya permana nurlyyyy</h2>
+    </div>
     <p>Maghsiswa yadika soreang.</p>
     <a href="" class="btn">Hubungi Saya</a>
   </div>
@@ -58,6 +64,9 @@
 <footer>
   <p>&copy; @iiinasoec</p>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
