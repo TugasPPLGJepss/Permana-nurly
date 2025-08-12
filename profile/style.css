@@ -30,6 +30,9 @@ nav a:hover {
   color: rgb(196, 3, 3);
 }
 
+h2,h1,p {
+  font-family: sans-serif;
+}
 .hero {
   display: flex;
   align-items: center;
@@ -69,9 +72,6 @@ section {
   padding: 2rem;
 }
 
-.about{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 .skill-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
