@@ -20,6 +20,9 @@ nav ul {
   gap: 1.5rem;
 }
 
+nav li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 nav a {
   color: white;
   text-decoration: none;
@@ -31,7 +34,7 @@ nav a:hover {
 }
 
 h2,h1,p {
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hero {
   display: flex;
