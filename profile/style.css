@@ -65,6 +65,7 @@ h2,h1,p {
   border-radius: 5px;
   text-decoration: none;
   transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn:hover {
@@ -86,6 +87,7 @@ section {
   padding: 1rem;
   text-align: center;
   border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .project-card {
