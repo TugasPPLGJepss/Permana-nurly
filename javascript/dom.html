@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <p id="tulisan"  onmouseenter="pinjol()" onmouseleave="pin()">heu tam tam geulam</p>
+    <script>
+        let tulisan = document.getElementById("tulisan")
+        let body = document.getElementById("body");
+        function pinjol() {
+            tulisan.style.backgroundColor = "orange"
+            body.style.backgroundColor = "blue";
+            tulisan.style.width = "10rem"
+            tulisan.innerHTML = "nyu nyu nyu     <img scr='2014-Porsche-911.jpg'>"
+        }
+        function pin() {
+            tulisan.style.width = "10rem"
+            tulisan.style.backgroundColor = "pink"
+            body.style.backgroundColor = "turquoise";
+        }
+    </script>
+</body>
+</html>
