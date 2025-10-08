@@ -38,19 +38,21 @@
     </div>
 
     <script>
-        let saldo = 100000000;
+        let saldo = 50000;
         let harga = 50000;
         function berhasil() {
-            let konfirmasi = confirm("Apa anda yakin ingin membeli");
+            let konfirmasi = confirm("Apa anda yakin ingin membeli ") ;
             if (konfirmasi === true) {
                 if (saldo >= harga) {                    
                     saldo -= harga;      
-                    alert("anda berhasil membelinya");
+                    alert("anda berhasil membelinya ");
                 } else {
-                alert("saldo anda tidak cukup");
+                    alert("saldo anda tidak cukup ");
                 }
-            }
-        }    
+                } else {
+                    alert("anda membatalkan pembelian ");
+                }
+            }       
     </script>
   </body>
 </html>
