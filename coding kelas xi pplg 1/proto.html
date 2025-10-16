@@ -22,6 +22,169 @@
             background: url(1665077350540.jpg)
             center/cover no-repeat;
         }
+        .tom{
+            background-color: rgb(228, 194, 21);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 16px;
+            text-decoration: none;
+            transition: all 0.5s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        .tom:hover {
+            transform: scale(1.1);
+        }
+        .tom:active {
+            transform: scale(0.9);
+        }
+        .nur {
+            padding-top: 8rem;
+            padding-left: 20rem;
+
+        }
+        button{
+            width: 8rem;
+            height: 40px;
+            border-radius: 12px;
+            border-color: rgb(22, 96, 215);
+            background-color: rgb(255, 255, 255);
+            color: rgb(22, 96, 215);
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+        button:hover {
+            transform: translateY(-10px);
+        }
+        .per {
+            width: 8rem;
+            height: 40px;
+            border-radius: 12px;
+            border-color: rgb(22, 96, 215);
+            background-color: rgb(22, 96, 215);
+            color: rgb(255, 255, 255);
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }        
+        
+        .bar-info {
+        padding-top: 100px;
+        }
+
+        .brosur-container {
+        max-width: 1200px;
+        margin: 2rem 0;
+        background-color: #e2e8f0;
+        color: #1f2937;
+        padding: 1rem 1rem 3rem 1rem;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .brosur-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        }
+
+        .brosur-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+        }
+
+        @media (min-width: 768px) {
+        .brosur-container {
+            max-width: 1200px;
+            margin: 5rem 6rem;
+            background-color: #e2e8f0;
+            color: #1f2937;
+            padding: 1rem 1rem 3rem 1rem;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .brosur-content {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .brosur-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2.25rem;
+            margin: 2rem 0;
+        }
+        }
+
+        .brosur-item {
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+        transition: transform 0.3s;
+        }
+
+        .brosur-item:hover {
+        transform: translateY(-10px);
+        }
+
+        .brosur-image {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #e2e8f0;
+        }
+
+        .download-button {
+        display: block;
+        margin: 1rem auto;
+        text-align: center;
+        border: 1px solid #1f2937;
+        background-color: #87ceeb;
+        padding: 8px 16px;
+        border-radius: 8px;
+        color: #1f2937;
+        font-weight: bolder;
+        font-family: sans-serif;
+        text-decoration: none;
+        width: 80%;
+        }
+
+        .download-button:hover {
+        background-color: #00bfff;
+        color: #ffffff;
+        }
+
+        .brosur-footer {
+        text-align: center;
+        margin-top: 32px;
+        }
+
+        .cek-pendaftar-button {
+        background-color: #0000ff;
+        color: white;
+        padding: 16px 32px;
+        border-radius: 16px;
+        text-decoration: none;
+        transition: all 0.5s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        }
+
+        .cek-pendaftar-button:hover {
+        background-color: #1e90ff;
+        transform: scale(1.1);
+        }
+
+        .cek-pendaftar-button:active {
+        transform: scale(0.9);
+        }
+  
+  
     </style>
   </head>
     <body>
@@ -51,13 +214,47 @@
         </nav>
         <section class="hero">
             <div class="hero-content">
-                <img src="" alt="prikitiw">
+                <img src="" alt="">
                 <h2>Permana Nurly</h2>
                 <p>Mangsud lu aapah</p>
-                <a href="" class="btn btn-warning">EAAAAAAS</a>
+                <a href="" class="tom">EAAAAAAS</a>
             </div>
         </section>
-
+        <section class="nur">
+            <div class="nur-content">
+                <h2 class="fw-bold fs-1">Selamat Datang </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit officiis, esse placeat accusantium unde quibusdam repellat ea voluptate earum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit officiis, esse placeat accusantium unde quibusdam repellat ea voluptate earum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit officiis, esse placeat accusantium unde quibusdam repellat ea voluptate earum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit officiis, esse placeat accusantium unde quibusdam repellat ea voluptate earum?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima fugit officiis, esse placeat accusantium unde quibusdam repellat ea voluptate earum?</p>
+            </div>
+            <button>Contact Us</button>
+            <button class="per"> > Visit Class</button>
+        </section>
+        <center>            
+            <div class="bar-info">
+                <div class="brosur-container">
+                    <div class="brosur-title">
+                        <p>Foto Saya</p>
+                    </div>
+                    <div class="brosur-content">                        
+                        <div class="brosur-item">
+                            <img src="1665077397120.jpg" class="rosur-image" alt="per1">
+                        </div>
+                        <div class="brosur-item">
+                            <img src="1665077397120.jpg" class="rosur-image" alt="per1">
+                        </div>
+                        <div class="brosur-item">
+                            <img src="1665077397120.jpg" class="rosur-image" alt="per1">
+                        </div>
+                    </div>
+                    <div class="brosur-footer">
+                        <a href="" class="cek-pendaftar-button">ayoooo</a>
+                    </div>
+                </div>
+            </div>
+        </center>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
 </html>
