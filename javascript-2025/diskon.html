@@ -12,21 +12,27 @@
         <h2 class="text-center p-4 text-primary">Kalkulator Diskon</h2>
         <div class="mb-3">
           <label for="Harga" class="form-label">Harga Barang(Rp)</label>
-          <input type="number" class="form-control" id="Harga" placeholder="Masukan Harga">
+          <input type="number" class="form-control" id="harga" placeholder="Masukan Harga">
         </div>
         <div class="mb-3">
           <label for="Jenis-pelanggan" class="form-label">Jenis Pelanggan</label>
           <select class="form-select" id="Jenis-pelanggan">
-            <option selected disabled >Silahkan Pilih Jenis Pelanggan</option>
+            <option disabled selected>Silahkan Pilih Jenis Pelanggan</option>
             <option value="Umum">Umum</option>
             <option value="Pelajar">Pelajar</option>
             <option value="Member">Member</option>
           </select>
         </div>
-        <button class="btn btn-primary w-100" onclick="hitung-diskon()">Hitung Diskon</button>
-        <div class="mt-4 alert alert-info d-none" id="hasil" role="alert"></div>
+        <button class="btn btn-primary w-100" onclick="hitungdiskon()">Hitung Diskon</button>
+        <div class="mt-4 alert alert-info d-none" id="hasil" role="alert">Tidak Ada</div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script>
+      function hitungdiskon() { 
+        let harga = parseInt(document.getElementById("harga").value)
+          alert(harga + 5)
+      }
+    </script>
   </body>
 </html>
