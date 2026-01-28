@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let toko = "aporan Audit Stok Produk Toko Komputer"
+        let namaProduk = "komputer"
+        let stokAwal = 50
+        let daftarTransaksi = [15, -20, 30, -10, -5]
+        let totalBersih = 0
+        let stokAkhir = 0
+        let detail = "Detail Transaksi (5 Hari):"
+
+
+        let total = totalBersih = daftarTransaksi[0] + daftarTransaksi[1] + daftarTransaksi[2] + daftarTransaksi[3] + daftarTransaksi[4]
+
+        let laststok = stokAwal + totalBersih
+
+
+        let stokHari1 = stokAwal + daftarTransaksi[0]
+        let stokHari2 = stokHari1 + daftarTransaksi[1]
+        let stokHari3 = stokHari2 + daftarTransaksi[2]
+        let stokHari4 = stokHari3 + daftarTransaksi[3]
+        let stokHari5 = stokHari4 + daftarTransaksi[4]
+
+
+
+
+
+        document.write(`======== ${toko} ======== <br><br><br>`)
+        document.write(`produk : ${namaProduk} <br>`)
+        document.write(`stok awal : ${stokAwal} <br><br><br>`)
+        document.write(` ${detail} <br>`)
+
+
+
+        document.write(`hari 1 (masuk) : ${daftarTransaksi[0]}pcs || `)
+        document.write(`stok jadi : ${stokHari1}pcs <br>`)
+
+        document.write(`hari 2 (keluar) : ${daftarTransaksi[1]}pcs || `)
+        document.write(`stok jadi : ${stokHari2} <br>`)
+
+        document.write(`hari 3 (masuk) : ${daftarTransaksi[2]}pcs || `)
+        document.write(`stok jadi : ${stokHari3}pcs <br>`)
+
+        document.write(`hari 4 (keluar) : ${daftarTransaksi[3]}pcs || `)
+        document.write(`stok jadi : ${stokHari4}pcs <br>`)
+
+        document.write(`hari 5 (masuk) : ${daftarTransaksi[4]}pcs || `)
+        document.write(`stok jadi : ${stokHari5}pcs <br>`)
+
+       document.write(`--------------------------------------------------------------------------- <br>`)
+       document.write(`total bersih transaksi : ${total}pcs <br>`)
+       document.write(`stok akhir hari ke-5 : ${laststok}pcs`)
+       
+    </script>
+</body>
+</html>
